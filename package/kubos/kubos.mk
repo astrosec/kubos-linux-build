@@ -10,7 +10,8 @@
 ###############################################
 KUBOS_LICENSE = Apache-2.0
 KUBOS_LICENSE_FILES = LICENSE
-KUBOS_SITE = git://github.com/kubos/kubos
+#KUBOS_SITE = git://github.com/kubos/kubos
+KUBOS_SITE = git://github.com/astrosec/kubos
 KUBOS_PROVIDES = kubos-mai400
 
 VERSION = $(call qstrip,$(BR2_KUBOS_VERSION))
